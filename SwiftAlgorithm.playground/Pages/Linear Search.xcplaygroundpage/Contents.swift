@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 
 func linearSearch<T: Equatable>(_ data: T, in arr: [T]) -> Bool {
     for element in arr {
