@@ -2,7 +2,7 @@
 
 import Foundation
 
-func selectionSort(_ arr: [Int]) -> [Int] {
+func exchangeSort(_ arr: [Int]) -> [Int] {
     var sorted = arr
     
     for i in 0..<sorted.count-1 {
@@ -17,7 +17,7 @@ func selectionSort(_ arr: [Int]) -> [Int] {
 }
 
 let arr = [10, -3, 0, 8, 7, 2]
-let sorted = selectionSort(arr)
+let sorted = exchangeSort(arr)
 print(sorted)
 
 //: [Next](@next)
