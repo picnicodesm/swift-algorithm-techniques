@@ -128,8 +128,7 @@ let graph3 = [
     "B": ["C": -2],
     "C": [:]
 ]
-//print(dijkstra(graph3, start: "A"))
 
-print(dijkstra(graph2, start: "V1"))
+print(dijkstra(graph, start: "V1"))
 
 //: [Next](@next)
