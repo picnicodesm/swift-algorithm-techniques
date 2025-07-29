@@ -123,7 +123,7 @@ func knapsack(n: Int, profits: [Int], weights: [Int], maxBagWeight: Int) -> Int 
     // BFS
     while !queue.isEmpty {
         let state = queue.dequeue()!
-        if state.weight >= maxBagWeight { continue }
+        if state.weight > maxBagWeight { continue }
         
         result = max(result, state.profit)
         
